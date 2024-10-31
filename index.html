@@ -1,17 +1,109 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>test</title>
+    <title>Athif Rasheed</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello</h1>
-    <ul>
-        <li>one</li>
-        <li>Two</li>
-        <li>three</li>
+    <header>
+        <nav>
+            <div class="logo">PORTFOLIO</div>
+            <div class="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nesciunt eum sequi qui corporis autem quisquam et quasi animi maxime, sed quibusdam! Debitis, enim corporis quis accusantium veritatis inventore voluptatibus.</p>
-    </ul>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Athif Rasheed</h1>
+            <p>Specializing in Logo Design, Jersey Design, and Social Media Content</p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2 class="section-title">My Work</h2>
+        <div class="portfolio-filter">
+            <button class="filter-btn active">All</button>
+            <button class="filter-btn">Logo Design</button>
+            <button class="filter-btn">Jersey Design</button>
+            <button class="filter-btn">Social Media</button>
+        </div>
+
+        <div class="portfolio-grid">
+            <!-- Logo Design Items -->
+            <div class="portfolio-item" data-category="logo">
+                <img src="images/logo1.jpg" alt="Logo Design 1">
+                <div class="portfolio-info">
+                    <h3>Brand Logo Design</h3>
+                    <p>Corporate Identity</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="logo">
+                <img src="images/logo2.jpg" alt="Logo Design 2">
+                <div class="portfolio-info">
+                    <h3>Modern Logo Design</h3>
+                    <p>Minimalist Approach</p>
+                </div>
+            </div>
+
+            <!-- Jersey Design Items -->
+            <div class="portfolio-item" data-category="jersey">
+                <img src="images/White sample.jpg" alt="Jersey Design 1">
+                <div class="portfolio-info">
+                    <h3>Sports Team Jersey</h3>
+                    <p>Custom Design</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="social">
+                <img src="images/photo_2024-10-31_11-18-56.jpg" alt="Social Media Post 1">
+                <div class="portfolio-info">
+                    <h3>Instagram Campaign</h3>
+                    <p>Social Media Marketing</p>
+                </div>
+            </div>
+
+            <!-- Social Media Items -->
+            <div class="portfolio-item" data-category="social">
+                <img src="images/S1.jpg" alt="Social Media Post 1">
+                <div class="portfolio-info">
+                    <h3>Instagram Campaign</h3>
+                    <p>Social Media Marketing</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="social">
+                <img src="images/S2.jpg" alt="Social Media Post 2">
+                <div class="portfolio-info">
+                    <h3>Facebook Ad Design</h3>
+                    <p>Digital Marketing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-content">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-info">
+                <p>Email: athifr601@.com</p>
+                <p>Phone: +960 7865567</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    
 </body>
 </html>
